@@ -4,11 +4,12 @@ import static common.SimpleTestLib.test;
 import static common.SimpleTestLib.assertTrue;
 
 /*
- * SuperStringTest Challenge:
+ * SuperString Challenge:
  * 
- * String is a common java library that you will use throughout your life as a coder. In order to
+ * String is a common java library that you will use throughout your life as a developer. In order to
  * better understand the String library, arrays, methods and objects, we will be recreating the
- * String class and calling it SuperString.
+ * String class and calling it SuperString. We will then be implementing some of the most commonly
+ * used methods from the String class into SuperString.
  * 
  * For this challenge, you need to fill out the methods that are stubbed out in SuperString.java
  * Each method has a comment above it with a number and a description. In this class, there is a
