@@ -1,5 +1,9 @@
 package common;
 
+/*
+ * This is a simple test library that emulates some functionality from JUnits.
+ * */
+
 public final class SimpleTestLib {
 	public static void assertTrue(boolean condition, String errorMessage){
 		if(!condition){
@@ -11,6 +15,10 @@ public final class SimpleTestLib {
 	
 	public static void assertTrue(boolean condition){
 		assertTrue(condition, " -- :(");
+	}
+	
+	public static void assertFalse(boolean condition){
+		assertTrue(!condition);
 	}
 	
 	public static void test(String testName){

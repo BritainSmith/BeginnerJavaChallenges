@@ -2,6 +2,7 @@ package superstring;
 
 import static common.SimpleTestLib.test;
 import static common.SimpleTestLib.assertTrue;
+import static common.SimpleTestLib.assertFalse;
 
 /*
  * SuperString Challenge:
@@ -43,7 +44,7 @@ public class SuperStringTest {
 		SuperString str = new SuperString("I'm a dork knight");
 		
 		assertTrue(str.contains("dork"));
-		assertTrue(!str.contains("dark"));
+		assertFalse(str.contains("dark"));
 	}
 	
 	public static void testConcat(){
@@ -66,8 +67,8 @@ public class SuperStringTest {
 		SuperString str4 = new SuperString("I'M A DORK KNIGHT");
 		
 		assertTrue(str1.equals(str2));
-		assertTrue(!str1.equals(str3));
-		assertTrue(!str1.equals(str4));
+		assertFalse(str1.equals(str3));
+		assertFalse(str1.equals(str4));
 	}
 	
 	public static void testEqualsIgnoreCase(){
@@ -79,7 +80,7 @@ public class SuperStringTest {
 		SuperString str4 = new SuperString("I'M A DORK KNIGHT");
 		
 		assertTrue(str1.equals(str2));
-		assertTrue(!str1.equals(str3));
+		assertFalse(str1.equals(str3));
 		assertTrue(str1.equals(str4));
 	}
 	
