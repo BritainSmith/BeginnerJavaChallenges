@@ -157,6 +157,8 @@ public class SuperString {
 		return new SuperString("");
 	}
 	
+	/**************************************** Helper Methods ****************************************/
+	
 	/*
 	 * returns the char array at the top of the class
 	 * */

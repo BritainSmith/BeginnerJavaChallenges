@@ -5,7 +5,7 @@ public final class SimpleTestLib {
 		if(!condition){
 			System.out.println("***FAIL: " + errorMessage);
 		}else{
-			System.out.println("***SUCCESS: -- :)");
+			System.out.println("***PASS: -- :)");
 		}
 	}
 	

@@ -3,6 +3,28 @@ package superstring;
 import static common.SimpleTestLib.test;
 import static common.SimpleTestLib.assertTrue;
 
+/*
+ * SuperStringTest Challenge:
+ * 
+ * String is a common java library that you will use throughout your life as a coder. In order to
+ * better understand the String library, arrays, methods and objects, we will be recreating the
+ * String class and calling it SuperString.
+ * 
+ * For this challenge, you need to fill out the methods that are stubbed out in SuperString.java
+ * Each method has a comment above it with a number and a description. In this class, there is a
+ * test corresponding to each method.
+ * 
+ * First, run this test class. You should see a series of messages similar to:
+ * EXECUTING: ...
+ * ***FAIL: ...
+ * ***PASS: ...
+ * 
+ * This is the output from all the tests running. These tests are verifying that you have met certain
+ * criteria from the challenge, so you will know you have finished this assignment when all of the tests "PASS".
+ * 
+ * You should not need to update this class, but it is available if you need to add additional tests.
+ * 
+ * */
 public class SuperStringTest {
 	
 	public static void testCharAt(){
